@@ -1,0 +1,3 @@
+{
+  "run_list": [ "recipe[bootstrap::vagrant, bootstrap::docker, bootstrap::zsh]" ]
+}
