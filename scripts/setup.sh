@@ -30,6 +30,9 @@ elif [[ "$DISTRO" =~ "centos" ]]; then
   sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm
   sudo yum install -y libyaml-devel
 
+  rm remi-release-6*.rpm
+  rm epel-release-6-8.noarch.rpm
+
 # os not supported yet
 else
   echo 'operating system not supported'
