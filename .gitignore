@@ -1,1 +1,5 @@
 /Berfiles.lock
+/berks-cookbooks
+/*.pid
+/*.out
+/remote_file
