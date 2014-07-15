@@ -1,4 +1,4 @@
-/Berfiles.lock
+/Berksfile.lock
 /berks-cookbooks
 /*.pid
 /*.out
